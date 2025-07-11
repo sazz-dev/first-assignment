@@ -157,21 +157,78 @@ main section {
     justify-content: space-around;
     margin-top: 32px;
 }
-       
+
+/* Feedback Section */
 
 
-/* .fifty-k{
-    display: inline;
-    text-align: center;
-    margin: 50px 50px;
+
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px ;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
 }
-.two-m{
-    display: inline;
-    text-align: center;
-    margin: 50px 50px;
+
+.feedback-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
 }
-.ninety-five{
-    display: inline;
+
+.feedback-texts h4{
+    font-size: 24px;
+}
+.feedback-texts p{
+    font-size: 16px;
+}
+
+.users{
+    display: flex;
+    gap: 12px;
+}
+
+.users img{
+    border-radius: 100px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-info h5{
+    font-size: 16px ;
+    color: #757575;
+}
+
+.user-info p{
+    font-size: 16px ;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+.feedback-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap:50px ;
+
+}
+.feedback h2{
+    font-size: 42px;
+    font-weight: 600;
     text-align: center;
-    margin: 50px 50px;
-} */
+    color: #252432;
+}
