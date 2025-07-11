@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .raleway-normal {
@@ -17,28 +17,28 @@
     color: #4E47FF;
 }
 
-.text-black{
+.text-black {
     color: #252432;
 }
 
-.text-gray{
+.text-gray {
     color: #2524327d;
 
 }
 
 /* Font */
 
-.font-sub-heading{
+.font-sub-heading {
     font-size: 42px;
 }
 
-.big-color-title{
+.big-color-title {
     font-size: 80px;
 }
 
 /* Button */
 
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     font-weight: 500;
     font-size: 16px;
@@ -47,11 +47,15 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    text-decoration: none; 
-    display: flex; 
-    align-items: center; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
     gap: 8px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -63,24 +67,24 @@
 
 /* Header Section */
 .header {
-    height: 698px; 
+    height: 698px;
     background-image: url(/Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 50px 20px; 
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
-   
+
 }
 
 nav {
-    max-width: 1140px; 
-    width: 100%; 
+    max-width: 1140px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .logo-text {
@@ -92,8 +96,8 @@ nav {
 .top-section {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #ffffff;
     margin-top: 158px;
@@ -102,7 +106,7 @@ nav {
 
 .head-text {
     font-size: 65px;
-    line-height: 1.2; 
+    line-height: 1.2;
     margin-bottom: 0;
 }
 
@@ -120,31 +124,31 @@ main section {
 
 }
 
-.see-it-in-action{
+.see-it-in-action {
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.see-it-in-action p{
+.see-it-in-action p {
     font-size: 24px;
     font-weight: 300;
 }
 
-.see-it-div{
+.see-it-div {
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 23px;
 }
 
-.wc-mini-img{
-    border-radius: 48px ;
+.wc-mini-img {
+    border-radius: 48px;
 
 }
 
-.joined-thousands{
+.joined-thousands {
     text-align: center;
     background-color: #E4E6FF;
     padding: 80px 50px;
@@ -152,7 +156,7 @@ main section {
 
 }
 
-.three-items{
+.three-items {
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
@@ -162,17 +166,17 @@ main section {
 
 
 
-.feedback-container{
+.feedback-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 24px ;
+    padding: 24px;
     background-color: #ffffff;
     border-radius: 14px;
     border: 1px solid #F2EDED;
 }
 
-.feedback-texts{
+.feedback-texts {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -180,55 +184,148 @@ main section {
 
 }
 
-.feedback-texts h4{
+.feedback-texts h4 {
     font-size: 24px;
 }
-.feedback-texts p{
+
+.feedback-texts p {
     font-size: 16px;
 }
 
-.users{
+.users {
     display: flex;
     gap: 12px;
 }
 
-.users img{
+.users img {
     border-radius: 100px;
 }
 
-.user-info{
+.user-info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.user-info h5{
-    font-size: 16px ;
+.user-info h5 {
+    font-size: 16px;
     color: #757575;
 }
 
-.user-info p{
-    font-size: 16px ;
+.user-info p {
+    font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
 }
 
-.feedback-items{
+.feedback-items {
     display: flex;
     justify-content: center;
     gap: 20px;
 
 }
 
-.feedback{
+.feedback {
     display: flex;
     flex-direction: column;
-    gap:50px ;
+    gap: 50px;
 
 }
-.feedback h2{
+
+.feedback h2 {
     font-size: 42px;
     font-weight: 600;
     text-align: center;
     color: #252432;
+}
+
+
+/* Ready To Foucus Better */
+
+.ready-to-focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2524327d;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.ready-to-focus img {
+    border-radius: 48px;
+
+}
+
+/* Get In Touch */
+
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F8FF;
+}
+
+.get-in-touch h2 {
+    font-size: 97px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 20px;
+    border: 1px solid #b6b6b6;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+
+.div-form {
+    width: 497px;
+}
+
+.logo-text-footer{
+    font-size: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px ;
+    margin-bottom:100px ;
+}
+
+ul{
+   display: flex;
+   align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 48px;
+    font-size: 16px;
 }
