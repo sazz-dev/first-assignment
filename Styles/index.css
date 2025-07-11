@@ -6,7 +6,7 @@
 
 }
 
-body{
+body {
     background-color: #F5F8FF;
 }
 
@@ -182,12 +182,12 @@ main section {
     transition: 0.3s;
 }
 
-.feedback-container:hover{
+.feedback-container:hover {
     padding: 30px;
-    
+
 }
 
-.feedback-container:hover{
+.feedback-container:hover {
     color: #413ce0;
 }
 
@@ -294,7 +294,7 @@ main section {
 
 .get-in-touch h2 {
     font-size: 97px;
-    font-weight:600;
+    font-weight: 600;
 }
 
 input[type="text"],
@@ -323,31 +323,35 @@ label {
     width: 497px;
 }
 
-.logo-text-footer{
+.logo-text-footer {
     font-size: 100px;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:30px ;
-    margin-bottom:100px ;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
-ul{
-   display: flex;
-   align-items: center;
+ul {
+    display: flex;
+    align-items: center;
 }
 
-ul li{
+ul li {
     list-style: none;
     margin-right: 48px;
     font-size: 16px;
 }
 
-.form-button{
-    width:497px ;
-    padding: 19px 19px ;
+.form-button {
+    width: 497px;
+    padding: 19px 19px;
 
+}
+
+footer p {
+    text-align: center;
 }
