@@ -337,7 +337,8 @@ footer {
 
 ul {
     display: flex;
-    align-items: center;
+    margin-left: 50px;
+
 }
 
 ul li {
@@ -349,7 +350,6 @@ ul li {
 .form-button {
     width: 497px;
     padding: 19px 19px;
-
 }
 
 footer p {
