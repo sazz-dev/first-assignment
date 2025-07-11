@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F5F8FF;
 }
 
 .raleway-normal {
@@ -68,7 +73,7 @@ a {
 /* Header Section */
 .header {
     height: 698px;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,6 +179,16 @@ main section {
     background-color: #ffffff;
     border-radius: 14px;
     border: 1px solid #F2EDED;
+    transition: 0.3s;
+}
+
+.feedback-container:hover{
+    padding: 30px;
+    
+}
+
+.feedback-container:hover{
+    color: #413ce0;
 }
 
 .feedback-texts {
@@ -246,7 +261,7 @@ main section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #2524327d;
+    background-color: white;
     padding: 71px 150px;
     border-radius: 14px;
 }
@@ -274,11 +289,12 @@ main section {
     justify-content: space-around;
     align-items: center;
     background-color: #F5F8FF;
+    gap: 120px;
 }
 
 .get-in-touch h2 {
     font-size: 97px;
-
+    font-weight:600;
 }
 
 input[type="text"],
@@ -328,4 +344,10 @@ ul li{
     list-style: none;
     margin-right: 48px;
     font-size: 16px;
+}
+
+.form-button{
+    width:497px ;
+    padding: 19px 19px ;
+
 }
